@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import notFoundImage from "../assets/others/404.svg";
+import notFoundImage from "../assets/error/404.svg";
 
 function NotFound() {
   return (

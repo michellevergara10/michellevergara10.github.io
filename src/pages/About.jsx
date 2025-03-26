@@ -36,8 +36,7 @@ function About() {
         </div>
         <div className={AboutCSS.textWrapper}>
           <h1>{data.AboutHeading}</h1>
-          <p>{data.AboutTextParagraph1}</p>
-          <p>{data.AboutTextParagraph2}</p>
+          <p>{data.AboutTextParagraph}</p>
           <button onClick={handleClick} className={AboutCSS.contactButton}>
             {data.AboutButtonText}
           </button>

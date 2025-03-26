@@ -6,15 +6,20 @@ import { useInView } from "react-intersection-observer";
 // Dynamically import all images from the assets/images folder
 const importAll = (r) => r.keys().map(r);
 const images = importAll(
-  require.context("../assets/images", false, /\.(webp|png|jpg|jpeg|gif)$/)
+  require.context("../assets/images/main", false, /\.(webp|png|jpg|jpeg|gif)$/)
 );
 
 function Portfolio() {
   return (
     <div className={PortfolioCSS.gridContainer}>
+      <div className={PortfolioCSS.textWrapper}>
+      </div>
       {images.map((src, index) => (
         <ImageWrapper key={index} src={src} index={index} />
       ))}
+      <div className={PortfolioCSS.textWrapper}>
+          <h2>Interested in seeing more? Check out my other sections!</h2>
+      </div>
     </div>
   );
 }

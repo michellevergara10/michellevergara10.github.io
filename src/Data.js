@@ -1,15 +1,14 @@
 const Data = {
-  WebsiteTitle: "Portfolio | Artists",
-  HeaderTitle: "Artist's Portfolio",
-  FooterText: "© 2024 Artist's Portfolio. All rights reserved.",
-  AboutEmail: "Your Email Address",
-  AboutEmailSubject: "Subject of the Email",
+  WebsiteTitle: "Michelle Vergara",
+  HomeHeaderTitle: "Welcome to Michelle's portfolio",
+  HeaderTitle: "Michelle Vergara's Portfolio",
+  FooterText: "© 2025 Michelle Vergara's Portfolio. All rights reserved.",
+  AboutEmail: "michelle.vergara10@gmail.com",
+  AboutEmailSubject: "Michelle's Portfolio - New Opportunity",
   AboutHeading: "About Me",
-  AboutTextParagraph1:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  AboutTextParagraph2:
-    " Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-  AboutButtonText: "Say Hey!",
+  AboutTextParagraph:
+    "I am a creative and results-driven graphic designer with over 7 years of experience in production, packaging and digital design with a proven ability to collaborate with cross-functional teams, deliver innovative designs, and meet client expectations in fast-paced environments. I'm passionate about delivering high-quality visual solutions for a variety of industries, including education, museums, and consumer products.",
+  AboutButtonText: "Contact me",
 };
 
 export default Data;

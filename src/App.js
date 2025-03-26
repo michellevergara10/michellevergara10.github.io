@@ -4,8 +4,13 @@ import "./index.css";
 import { Toaster } from "react-hot-toast";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import AllThatGlitters from "./pages/AllThatGlitters";
+import Animations from "./pages/Animations";
+import Freelance from "./pages/Freelance";
 import NotFound from "./pages/NotFound";
-import Upload from "./pages/Upload";
+import ProductionDesign from "./pages/ProductionDesign";
+import Projects from "./pages/Projects";
+import TheGiftOfLosAngeles from "./pages/TheGiftOfLosAngeles";
 
 const App = () => {
   useEffect(() => {
@@ -26,8 +31,13 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/allThatGlitters" element={<AllThatGlitters />} />
+          <Route path="/projects/animations" element={<Animations />} />
+          <Route path="/projects/freelance" element={<Freelance />} />
+          <Route path="/projects/productionDesign" element={<ProductionDesign />} />
+          <Route path="/projects/theGiftOfLosAngeles" element={<TheGiftOfLosAngeles />} />
           <Route path="*" element={<NotFound />} />
-          <Route path="/upload" element={<Upload />} />
         </Routes>
       </Router>
       <Toaster />

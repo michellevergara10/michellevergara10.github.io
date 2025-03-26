@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Header from "../components/Header";
+import HomeHeader from "../components/HomeHeader";
 import Portfolio from "../components/Portfolio";
 import Footer from "../components/Footer";
 import ScrollToTop from "../components/ScrollToTop";
@@ -24,7 +24,7 @@ function Home() {
 
   return (
     <div>
-      <Header />
+      <HomeHeader />
       <Portfolio />
       <Footer />
       {showScroll && <ScrollToTop />}

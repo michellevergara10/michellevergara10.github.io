@@ -31,6 +31,31 @@ function Header() {
               About
             </Link>
           </li>
+          <li>
+            <Link to="/projects/allThatGlitters" onClick={handleLinkClick}>
+              All That Glitters
+            </Link>
+          </li>
+          <li>
+            <Link to="/projects/freelance" onClick={handleLinkClick}>
+              Freelance Work
+            </Link>
+          </li>
+          <li>
+            <Link to="/projects/animations" onClick={handleLinkClick}>
+              Animations
+            </Link>
+          </li>
+          <li>
+            <Link to="/projects/productionDesign" onClick={handleLinkClick}>
+              Production Design
+            </Link>
+          </li>
+          <li>
+            <Link to="/projects/theGiftOfLosAngeles" onClick={handleLinkClick}>
+              The Gift of Los Angeles
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>

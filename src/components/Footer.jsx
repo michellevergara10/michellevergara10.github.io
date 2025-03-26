@@ -8,13 +8,20 @@ function Footer() {
       <div className={FooterCSS.container}>
         <p>{data.FooterText}</p>
         <p style={{ marginTop: "5px", fontSize: "12px" }}>
-          Designed and developed by{" "}
+          Designed by{" "}
           <a
             href="https://github.com/rakshixh"
             style={{ textDecoration: "none", color: "#F4A261" }}
           >
             rakshixh
           </a>
+          . Adapted and updated by{" "}
+          <a
+            href="https://github.com/jcheng95"
+            style={{ textDecoration: "none", color: "#F4A261" }}
+          >
+            jcheng95
+          </a>.
         </p>
       </div>
     </footer>
