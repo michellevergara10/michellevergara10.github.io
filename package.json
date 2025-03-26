@@ -1,6 +1,7 @@
 {
   "name": "portfolio-for-artists",
   "version": "1.0.0",
+  "homepage": "https://michellevergara10.github.io",
   "private": true,
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
@@ -47,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
