@@ -1,7 +1,7 @@
 {
   "name": "portfolio-for-artists",
   "version": "1.0.0",
-  "homepage": "https://michellevergara10.github.io/",
+  "homepage": "https://michellevergara10.github.io",
   "private": true,
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
@@ -30,7 +30,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm install && gh-pages -b main -d build"
   },
   "eslintConfig": {
     "extends": [
