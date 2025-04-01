@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/michellevergara10.github.io/static/css/main.945427bb.css",
-    "main.js": "/michellevergara10.github.io/static/js/main.dc561909.js",
+    "main.css": "/michellevergara10.github.io/static/css/main.032fe290.css",
+    "main.js": "/michellevergara10.github.io/static/js/main.d9147264.js",
     "static/js/453.b24f9a2c.chunk.js": "/michellevergara10.github.io/static/js/453.b24f9a2c.chunk.js",
     "static/media/Screen Recording 2025-01-26 at 1.43.17 PM.mp4": "/michellevergara10.github.io/static/media/Screen Recording 2025-01-26 at 1.43.17 PM.42e1129990574e329e72.mp4",
     "static/media/Final-Closing-Eblasts-2021-Disney-BOWERS-Closing-June3.gif": "/michellevergara10.github.io/static/media/Final-Closing-Eblasts-2021-Disney-BOWERS-Closing-June3.428aa25c15355cf7848b.gif",
@@ -80,12 +80,12 @@
     "static/media/update-17_orig.jpg": "/michellevergara10.github.io/static/media/update-17_orig.26cdf5f6f5e81d00ec5a.jpg",
     "static/media/404.svg": "/michellevergara10.github.io/static/media/404.f7a1746b6c32d82a3f32c77fc778e768.svg",
     "index.html": "/michellevergara10.github.io/index.html",
-    "main.945427bb.css.map": "/michellevergara10.github.io/static/css/main.945427bb.css.map",
-    "main.dc561909.js.map": "/michellevergara10.github.io/static/js/main.dc561909.js.map",
+    "main.032fe290.css.map": "/michellevergara10.github.io/static/css/main.032fe290.css.map",
+    "main.d9147264.js.map": "/michellevergara10.github.io/static/js/main.d9147264.js.map",
     "453.b24f9a2c.chunk.js.map": "/michellevergara10.github.io/static/js/453.b24f9a2c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.945427bb.css",
-    "static/js/main.dc561909.js"
+    "static/css/main.032fe290.css",
+    "static/js/main.d9147264.js"
   ]
 }
