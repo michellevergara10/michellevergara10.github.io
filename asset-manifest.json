@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.032fe290.css",
-    "main.js": "./static/js/main.587ebab9.js",
+    "main.js": "./static/js/main.febdd1f7.js",
     "static/js/453.b24f9a2c.chunk.js": "./static/js/453.b24f9a2c.chunk.js",
     "static/media/Screen Recording 2025-01-26 at 1.43.17 PM.mp4": "./static/media/Screen Recording 2025-01-26 at 1.43.17 PM.42e1129990574e329e72.mp4",
     "static/media/Final-Closing-Eblasts-2021-Disney-BOWERS-Closing-June3.gif": "./static/media/Final-Closing-Eblasts-2021-Disney-BOWERS-Closing-June3.428aa25c15355cf7848b.gif",
@@ -81,11 +81,11 @@
     "static/media/404.svg": "./static/media/404.f7a1746b6c32d82a3f32c77fc778e768.svg",
     "index.html": "./index.html",
     "main.032fe290.css.map": "./static/css/main.032fe290.css.map",
-    "main.587ebab9.js.map": "./static/js/main.587ebab9.js.map",
+    "main.febdd1f7.js.map": "./static/js/main.febdd1f7.js.map",
     "453.b24f9a2c.chunk.js.map": "./static/js/453.b24f9a2c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.032fe290.css",
-    "static/js/main.587ebab9.js"
+    "static/js/main.febdd1f7.js"
   ]
 }
