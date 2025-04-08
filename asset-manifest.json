@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.2962310a.css",
-    "main.js": "/static/js/main.c0cd1509.js",
+    "main.css": "/static/css/main.663319f6.css",
+    "main.js": "/static/js/main.3117fe87.js",
     "static/js/453.b24f9a2c.chunk.js": "/static/js/453.b24f9a2c.chunk.js",
-    "static/media/Screen Recording 2025-01-26 at 1.43.17 PM.mp4": "/static/media/Screen Recording 2025-01-26 at 1.43.17 PM.42e1129990574e329e72.mp4",
     "static/media/Final-Closing-Eblasts-2021-Disney-BOWERS-Closing-June3.gif": "/static/media/Final-Closing-Eblasts-2021-Disney-BOWERS-Closing-June3.428aa25c15355cf7848b.gif",
     "static/media/gift7.png": "/static/media/gift7.17f02a765550e5156d4b.png",
     "static/media/Background_Warp_Vector_3.gif": "/static/media/Background_Warp_Vector_3.f528da9ec5f469560747.gif",
@@ -80,12 +79,12 @@
     "static/media/update-17_orig.jpg": "/static/media/update-17_orig.26cdf5f6f5e81d00ec5a.jpg",
     "static/media/404.svg": "/static/media/404.f7a1746b6c32d82a3f32c77fc778e768.svg",
     "index.html": "/index.html",
-    "main.2962310a.css.map": "/static/css/main.2962310a.css.map",
-    "main.c0cd1509.js.map": "/static/js/main.c0cd1509.js.map",
+    "main.663319f6.css.map": "/static/css/main.663319f6.css.map",
+    "main.3117fe87.js.map": "/static/js/main.3117fe87.js.map",
     "453.b24f9a2c.chunk.js.map": "/static/js/453.b24f9a2c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2962310a.css",
-    "static/js/main.c0cd1509.js"
+    "static/css/main.663319f6.css",
+    "static/js/main.3117fe87.js"
   ]
 }
