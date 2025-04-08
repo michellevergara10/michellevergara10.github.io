@@ -2,27 +2,38 @@ import React from "react";
 import SectionCSS from "../css/Section.module.css";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import YouTube from "react-youtube";
 
 // Function to dynamically import all images from the assets/images folder
 const importAll = (r) => r.keys().map(r);
 
+const videoOpts = {
+  height: 350,
+  width: "85%",
+  // https://developers.google.com/youtube/player_parameters
+  playerVars: {
+    controls: 1
+  }
+};
+const onReady = (event) => {
+  // Start paused and have event handler ready for player
+  event.target.pauseVideo();
+}
+
 function Section(project) {
-    var images;
+  var images;
+  var videoIds;
   switch(project) {
     // This is the only special case with videos
     case 'animations':
-      const videos = importAll(
-        require.context('../assets/images/motionGraphics', false, /\.mp4$/)
-      );
+      videoIds = ["HamZDIAsMg4", "vHdo92-3nLY", "gdZJphXxe7I"];
       images = importAll(
         require.context('../assets/images/motionGraphics', false, /\.(webp|png|jpg|jpeg|gif)$/)
       );
       return (
         <div className={SectionCSS.gridContainer}>
-          {videos.map((src, index) => (
-            <video width="auto" height="auto" controls>
-              <source src={src} type="video/mp4"/>
-            </video>
+          {videoIds.map((id, index) => (
+            <YouTube videoId={id} opts={videoOpts} onReady={onReady}/>
           ))}
           {images.map((src, index) => (
             <ImageWrapper key={index} src={src} index={index} />
@@ -45,10 +56,20 @@ function Section(project) {
       );
       break;
     case 'theGiftOfLosAngeles':
+      videoIds = ["vHdo92-3nLY", "gdZJphXxe7I"];
       images = importAll(
         require.context('../assets/images/theGiftOfLosAngeles', false, /\.(webp|png|jpg|jpeg|gif)$/)
       );
-      break;
+      return (
+        <div className={SectionCSS.gridContainer}>
+          {videoIds.map((id, index) => (
+            <YouTube videoId={id} opts={videoOpts} onReady={onReady}/>
+          ))}
+          {images.map((src, index) => (
+            <ImageWrapper key={index} src={src} index={index} />
+          ))}
+        </div>
+      );
   }
   return (
     <div className={SectionCSS.gridContainer}>
